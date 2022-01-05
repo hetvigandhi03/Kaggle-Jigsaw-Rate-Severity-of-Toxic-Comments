@@ -1,2 +1,36 @@
-# Kaggle-Jigsaw-Rate-Severity-of-Toxic-Comments
-NLP based project
+# Kaggle Jigsaw Rate Severity of Toxic Comments
+
+## Introduction and Problem Statement
+ Identifying harassment in social media discussions is vital, as is determining the number of unpleasant sentiments conveyed inside the comment. Organizations can save time and manual labor in regulating these platforms by automating this comment classification approach.The primary purpose is to determine the level of negativity and toxicity in internet comments. This could help to identify people who abuse individuals. As a result, it will eventually assist in the execution of policies and the penalty of individuals who do not obey, which can subsequently be used to reduce the level of toxicity in discussions. Using LSTM, CNN and FastText we aspire to build a multi-label classification model that separates comments into six groups according to their toxicity level: toxic, severe toxic, obscene, threat, insult, and identity-hate.
+ 
+ ## Exploratory Data Analysis
+  - The data that we have used for our model is Kaggle’s Toxic Comment Classification Dataset on Wikipedia’s Talk page edits.
+  - The dataset had total of `159571` samples of comments and labeled data.
+  <img src="Images/DemoPage1.jpg" width="50" height="40">
+  
+  **Visualisation of our data**
+  
+ - We can see that the most common lengths of comments are `0 to 200`. 
+ - Number of **toxic** comments in our dataset is significantly **higher**. **Identity Hate** comments, on the other hand, are the **lowest**.
+ 
+ 
+  ## Methodology
+  
+  1. Data Analysis
+  2. Data preprocessing
+     - Text Normalisation
+     - Lemmatization
+     - Stop-words Removal
+     - Tokenization
+  3. Embedding words into vectors using `FastText`
+  4. Trained Model using LSTM, LSTM-CNN
+  5. Model Evaluation 
+     - Achieved the best accuracy using `LSTM`
+     - Acurracy : Train Data - **99.08%** Test Data - **99.32%**
+
+## Quick Demo
+
+## Challenges
+  
+
+
