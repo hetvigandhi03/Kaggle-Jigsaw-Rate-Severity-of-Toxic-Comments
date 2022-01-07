@@ -42,4 +42,8 @@ Identifying harassment in social media discussions is vital, as is determining t
 ## Quick Demo
 
 ## Challenges
+-Unstructured comments may contain unwanted words or characters
+-Selecting an efficient model 
+-Hyper-parameter tuning to avoid bias and variance problem, and achieving the best possible accuracy
+-There will be more hurdles to overcome, but Google, StackOverflow, and GitHub will always be your best friends.
   
