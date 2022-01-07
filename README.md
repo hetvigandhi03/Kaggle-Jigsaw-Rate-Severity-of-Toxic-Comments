@@ -4,7 +4,7 @@
 Identifying harassment in social media discussions is vital, as is determining the number of unpleasant sentiments conveyed inside the comment. Organizations can save time and manual labor in regulating these platforms by automating this comment classification approach.The primary purpose is to determine the level of negativity and toxicity in internet comments. This could help to identify people who abuse individuals. As a result, it will eventually assist in the execution of policies and the penalty of individuals who do not obey, which can subsequently be used to reduce the level of toxicity in discussions. Using LSTM, CNN and FastText we aspire to build a multi-label classification model that separates comments into six groups according to their toxicity level: toxic, severe toxic, obscene, threat, insult, and identity-hate.
  
  ## Exploratory Data Analysis
-  - The data that we have used for our model is Kaggle’s Toxic Comment Classification Dataset on Wikipedia’s Talk page edits.
+  - The data that we have used for the model is Kaggle’s Toxic Comment Classification Dataset on Wikipedia’s Talk page edits.
   - The dataset had total of `159571` samples of comments and labeled data.
 
   **Visualisation of Length Distribution**
@@ -13,8 +13,8 @@ Identifying harassment in social media discussions is vital, as is determining t
   
   
   
- - We can conclude that maximum comment length are ranging from `0 to 200`. 
- - Number of **toxic** comments in our dataset is significantly **higher**. **Identity Hate** comments, on the other hand, are the **lowest**.
+ - Maximum comment length are ranging from `0 to 200`. 
+ - Number of **toxic** comments in the dataset are significantly **higher**. **Identity Hate** comments, on the other hand, are the **lowest**.
  
  
   ## Methodology
@@ -35,7 +35,7 @@ Identifying harassment in social media discussions is vital, as is determining t
   
   <img src="images/LSTM-FastText-AccuracyGraph.png" width="400" height="275">
   
-  **Visualiation of Loss**
+  **Visualization of Loss**
   
   <img src="images/LSTM-FastText-LossGraph.png" width="400" height="275">
 
