@@ -39,7 +39,6 @@ Identifying harassment in social media discussions is vital, as is determining t
   
   <img src="images/LSTM-FastText-LossGraph.png" width="400" height="275">
 
-## Quick Demo
 
 ## Challenges
 - Unstructured comments may contain unwanted words or characters
